@@ -41,6 +41,30 @@
         </div>
         <!-- Spinner End -->
 
+        <!-- The Modal -->
+        <div class="modal" id="admision">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">Matriculas abiertas año 2026</h4>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <img class="img-fluid" src="img/admision/2026/infografia.jpg">
+                    </div>
+
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-dark rounded-pill py-sm-3 px-sm-5" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
         <!-- Navbar Start -->
         <!-- nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top px-4 px-lg-5 py-lg-0">
@@ -108,7 +132,10 @@
                     <!-- a href="classes.html" class="nav-item nav-link">Lista de útiles</a -->
                     <a href="contact.html" class="nav-item nav-link">Contacto</a>
                 </div>
-                <a href="https://www.escuelasonsoles.cl/webmail" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Acceso a Correo<i class="fa fa-arrow-right ms-3"></i></a>
+                <!-- a href="https://www.escuelasonsoles.cl/webmail" class="btn btn-primary rounded-pill px-3 d-none d-lg-block">Acceso a Correo<i class="fa fa-arrow-right ms-3"></i></a -->
+                <button type="button" class="btn btn-primary rounded-pill px-3 d-none d-lg-block" data-bs-toggle="modal" data-bs-target="#admision">
+                    Matrícula<i class="fa fa-arrow-right ms-3"></i>
+                </button>                
             </div>
         </nav>
         <!-- Navbar End -->

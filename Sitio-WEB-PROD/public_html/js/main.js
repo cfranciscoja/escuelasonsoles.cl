@@ -76,6 +76,11 @@
             }
         }
     });
+
+    // Carga Modal al inicio
+    $(window).on('load', function() {
+        $('#admision').modal('show');
+    });
     
 })(jQuery);
 
